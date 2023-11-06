@@ -1,0 +1,42 @@
+body
+{
+    background-color: darkslategray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.first-container
+{
+    border-style: solid;
+    border-width: 20px;
+    border-color: black;
+
+    padding: 20px;
+    background-color: azure;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.second-container
+{
+    margin: auto;
+    border-top: 5px blueviolet solid;
+    width: 75%;
+}
+
+#header
+{
+    font-weight: bold;
+    font-size: 36px;
+    color:deeppink;
+    opacity: 0.5;
+}
+
+#everything-else
+{
+    font-weight: 100;
+    font-size: 28px;
+    color: indianred;
+}
+
