@@ -2,28 +2,8 @@ body
 {
     background-color: darkslategray;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
 }
-
-.first-container
-{
-    border-style: solid;
-    border-width: 20px;
-    border-color: black;
-
-    padding: 20px;
-    background-color: azure;
-    margin: auto;
-    text-align: center;
-    padding: 20px;
-}
-
-.second-container
-{
-    margin: auto;
-    border-top: 5px blueviolet solid;
-    width: 75%;
-}
-
 #header
 {
     font-weight: bold;
@@ -34,8 +14,36 @@ body
 
 #everything-else
 {
-    font-weight: lighter;
-    font-size: 28px;
-    color: indianred;
+    color: rgb(92, 92, 187);
+
 }
 
+.first-container
+{
+    border-style: solid;
+    border-width: 20px;
+    border-color: black;
+
+    padding: 20px;
+
+    background-color: azure;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.second-container
+{
+    margin: auto;
+    border-bottom:blueviolet solid 2px;
+    width: 75%;
+    padding: 10px;
+}
+
+.third-container
+{
+    margin: auto;
+    font-weight: lighter;
+    color: rgb(141, 115, 142);
+    opacity: 0.8;
+}
