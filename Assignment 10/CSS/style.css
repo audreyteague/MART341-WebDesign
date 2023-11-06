@@ -4,7 +4,6 @@ body
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-
 .first-container
 {
     border-style: solid;
@@ -35,7 +34,7 @@ body
 
 #everything-else
 {
-    font-weight: 100;
+    font-weight: lighter;
     font-size: 28px;
     color: indianred;
 }
