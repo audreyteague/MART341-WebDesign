@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Sorts+Mill+Goudy&display=swap');
+body
+{
+    text-align: center;
+}
+.title-container
+{
+    border: 2px double;
+    border-radius: 5px;
+    padding: 0.1em;
+    text-align: center;
+    background-color: lightskyblue;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: fixed;
+}
+
+.menu-container
+{
+    margin: 20px;
+    background-color: lightskyblue;
+    text-align: center;
+    border: 1px outset;
+    border-radius: 10px;
+    min-width: 10px;
+    padding: .2em;
+    color: black;
+}
+.menu-container:hover
+{
+    background-color: rgb(197, 231, 251);
+}
+li
+{
+    padding: 50px;
+    display: inline;
+}
+.display-inline-block
+{
+    display: inline-block;
+}
+
+
+.dropdown 
+{
+    display: inline-block;
+}
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    border: 1px solid #000;
+    margin: 0;
+    margin-top: 0.5em;
+    color: #000;
+    background-color: #fff;
+    z-index: 1;
+}
+.dropdown-content a 
+{
+    color: #000;
+}
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+
+.dropdown-item 
+{
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
+}
+.dropdown-item:hover, .dropdown-item:hover a 
+{
+    color: lightskyblue;
+    background-color: white;
+}
+
+.parent-container p
+{
+    border: 1px solid;
+    border-radius: 10px;
+    top: 100px;
+    width: 90%;
+    background-color: rgba(135, 206, 250, 0.517);
+    margin: auto;
+    font-size: 20px;
+}
+
+.parent-container .fixed-element
+{
+    position: fixed;
+    top: 300px;
+    left: 300px;
+    max-width: 200px;
+    font-size: 20px;
+    color: black;
+    background-color: rgba(175, 238, 238, 0.36);
+    text-align: center;
+}
